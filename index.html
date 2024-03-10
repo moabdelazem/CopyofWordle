@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWordleGame</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./src/app.js" async></script>
+  </head>
+  <body>
+    <h1></h1>
+    <div class="guessGame">
+      <!-- Game Area -->
+      <div class="gameArea">
+        <div class="inputs"></div>
+        <div class="control">
+          <button class="check">Check Word</button>
+          <button class="hint">Hint</button>
+        </div>
+        <div class="message"></div>
+      </div>
+      <!-- Key Colors -->
+      <div class="keyColors">
+        <h2>KeyColors</h2>
+        <div class="keyColor">
+          <div class="key inPlace"></div>
+          <div class="key-text">Letter Is Correct And In Place</div>
+        </div>
+        <div class="keyColor">
+          <div class="key notInPlace"></div>
+          <div class="key-text">Letter Is Correct But Not In Place</div>
+        </div>
+        <div class="keyColor">
+          <div class="key wrongLetter"></div>
+          <div class="key-text">Letter Is Not Correct</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Developed By: <a href="https://github.com/moabdelazem">@moabdelazem</a>
+      </p>
+      <a class="repoLink" href="">See Code On Github Repo</a>
+    </footer>
+  </body>
+</html>
