@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: var(--default);
+  margin: 0;
 }
 
 :root {
@@ -60,5 +65,31 @@ body {
   }
   100% {
     transform: scaleY(1);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--default);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+
+  h1 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  a {
+    color: var(--wrong);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
