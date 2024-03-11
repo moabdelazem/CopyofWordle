@@ -139,4 +139,4 @@ function startUp() {
   console.log(State.secret);
 }
 
-startUp();
+document.addEventListener("DOMContentLoaded", startUp);
